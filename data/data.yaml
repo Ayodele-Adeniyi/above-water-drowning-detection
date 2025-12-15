@@ -1,0 +1,13 @@
+train: /deac/sta/classes/sta379/adena24/AboveWater_Drowning_Detection.v1i.yolov11/train/images
+val: /deac/sta/classes/sta379/adena24/AboveWater_Drowning_Detection.v1i.yolov11/valid/images
+test: /deac/sta/classes/sta379/adena24/AboveWater_Drowning_Detection.v1i.yolov11/test/images
+
+nc: 2
+names: ['drowning', 'normal']
+
+roboflow:
+  workspace: ayodele-adeniyi
+  project: abovewater_drowning_detection-vbzzd
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ayodele-adeniyi/abovewater_drowning_detection-vbzzd/dataset/1
